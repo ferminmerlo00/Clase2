@@ -1,0 +1,68 @@
+Elementos estructurales > son los elementos que tenemos a nuestra dispocion para estructura un sitio web.
+
+Son importantes porque marcan una división en lo que vamos a contener
+
+
+Prohibido usar div.
+
+Elementos en bloque > ocupan todo el ancho del contenedor y crean un linea después de si mismos
+
+(por ejemplo p,h)
+
+Elementos in line> ocupan espacio necesario para su contenido y no crean una nueva linea después de si mismo
+
+img, a, hipervínculos
+
+Formularios:
+
+Ingresan datos en un sitio.
+Pueden ingresar a un servidor.
+
+TODO FORMULARIO EMPIEZA CON LA ETIQUETA <FORM> ES SEMANTICA
+
+SEGUNDA ETIQUETA FIELDSET > AGRUPA CAMPOS CONJUNTO DE CAMPOS
+
+PARA PONER EL DATO QUE QUIERO QUE EL USUARIO COLOQUE <LABEL> 
+
+<INPUT> PARA PROCESAR DATOS + EL TIPO DE DATO (EL QUE SEA ) ES IMPORTANTE PONER UN ID > DECLARO DATOS + PLACEHOLDER > ES PARA QUE EL USUARIO VEA LO QUE TIENE QUE PONER DENTRO DEL BOX DE RESPUESTA + REQUIRED (PUEDE USARSE PARA OBLIGAR AL USUARIO A COMPLETAR)
+
+Si uso checkbox > uso value
+si uso radio> tiene que haber atributo name (NAME SERIA UNA CAJA) que los agrupe en critero
+Si quiero usar una sola opcion> uso option > ppero se le agrega selec primero
+Si quiero usar un textarea> para que escriba mas texto
+
+PARA HACER BOTONES <BUTTON> + TYPE (PUEDE SER BUTTON, SUBMIT O RESET)
+SI ES BUTTON SE USA CON JS
+SI ES SUBMIT > IMPORTANTE PARA POR EJEMPLO MANDAR TODOS LOS OTROS DATOS AL FINAL DE TODOS LOS FORMULARIOS
+SI ES RESET> BORRAS DATOS.
+
+
+<BR/> <BR/> PARA SALTAR LINEA 
+
+
+
+SEMANTICA> JAMAS USAR DIV > AGRUPAR CONTENIDO DE A CUERDO A TIPO DE DATO QUE VAMOS A CONFIAR
+
+HEADER> CABECERA> PAGINA APARTADO O SECCION
+
+NAV> representa la navegación > se puede poner directamente para contener un link o varios links 
+
+MAIN, SECTION O ASIDE > CADA UNO TIENE SU CRITERIO, SE USAN PARA LO MISMO> 
+
+MAIN> CONTENIDO PRINCIPAL DE LA PAGINA > DESCRIPCION CORTA O INTRODUCCION > SOLO PUEDE HABER UNO
+
+ASIDE> TAMBIEN SOLO PUEDE HABER UNO> COSAS NO TAN RELACIONADAS
+
+SECTION> MUCHAS SECCIONES EN UNA PAGINA DE LA PAGINA > MAS SE TIENE QUE USAR CUANDO SE REMPLAZA DIV> USAR HEADER PARA DECLARAR DE QUE ES
+
+PICTURE> PARA USAR IMAGEN
+FIGURE> IMG O VIDEOS O AUDIOS < USAR FICAPTION> SOBRE QUE ES (EPIGRAFE)
+
+
+
+
+
+
+
+
+
